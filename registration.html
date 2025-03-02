@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration | ICAMMAE 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      .table-container {
+        overflow-x: auto;
+        /* Makes table scrollable on smaller screens */
+        max-width: 100%;
+      }
+
+      .table {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+        /* Soft shadow */
+      }
+
+      .table th {
+        background: #007bff;
+        /* Dark blue header */
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+
+      .table td {
+        padding: 12px;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      .table tbody tr:nth-child(even) {
+        background: #f8f9fa;
+        /* Light gray for alternate rows */
+      }
+
+      .table tbody tr:hover {
+        background: #dfe6e9;
+        /* Light blue hover effect */
+        transition: 0.3s ease-in-out;
+      }
+
+      .btn-register {
+        background: linear-gradient(135deg, #ff5733, #ff914d);
+        /* Eye-catching gradient */
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+      }
+
+      .btn-register:hover {
+        background: linear-gradient(135deg, #ff914d, #ff5733);
+        /* Invert gradient on hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        transform: scale(1.05);
+      }
+
+      .registration-section h2{
+        color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">ICAMMAE 2025</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#callforpapers">Call for Papers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registration.html">Registartion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="speakers.html">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="committee.html">Committee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="previous.html">Previous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sponsors">Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <!-- Registration Section -->
+    <div class="container">
+      <div class="registration-section">
+        <br>
+        <h2><center>Registration Details</center></h2>
+        <br>
+        <div class="table-container">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Fee (INR)</th>
+                <th>Fee (USD)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Professionals / Academicians</td>
+                <td>Rs. 1500</td>
+                <td>$18</td>
+              </tr>
+              <tr>
+                <td>Research Scholars</td>
+                <td>Rs. 1000</td>
+                <td>$12</td>
+              </tr>
+              <tr>
+                <td>PG Students</td>
+                <td>Rs. 1000</td>
+                <td>$12</td>
+              </tr>
+              <tr>
+                <td>Industry Participants</td>
+                <td>Rs. 2000</td>
+                <td>$24</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Payment Button -->
+        <div class="text-center">
+          <a href="https://www.reva.edu.in/payment" class="btn-register" target="_blank">💳 Proceed to Payment</a>
+        </div>
+        <br>
+        <br>
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3">
+          <div class="container">
+            <p>&copy; 2025 ICAMMAE. All Rights Reserved | REVA University, Bangalore</p>
+          </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
